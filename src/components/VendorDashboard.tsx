@@ -287,7 +287,7 @@ export default function VendorDashboard() {
             <h1>{state.vendorOnline ? 'Aktif melayani' : 'Sedang tidak aktif'}</h1>
             <p>
               {state.vendorOnline
-                ? `Titik keberangkatan ditetapkan di ${VENDOR_LOCATION.label}.`
+                ? ''
                 : 'Penjual tidak ditampilkan pada peta pembeli.'}
             </p>
             <span className="vendor-location-note" role="status">
